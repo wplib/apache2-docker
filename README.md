@@ -1,0 +1,1 @@
+# Apache2 for [WPLib Box](https://github.com/wplib/wplib-box)
