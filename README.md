@@ -5,15 +5,15 @@ It currently provides versions 2.4.27-r1 2.4.29-r1
 
 ## Supported tags and respective Dockerfiles
 
-`2.4.27-r1` , `2.4.27-r1` _([2.4.27-r1/Dockerfile](https://github.com/wplib/php-fpm-docker/blob/master/2.4.27-r1/Dockerfile))_
+`2.4.29-r1` , `2.4.29-r1`, `latest` _([2.4.29-r1/Dockerfile](https://github.com/wplib/apache2/blob/master/2.4.29-r1/Dockerfile))_
 
-`2.4.29-r1` , `2.4.29-r1`, `latest` _([2.4.29-r1/Dockerfile](https://github.com/wplib/php-fpm-docker/blob/master/2.4.29-r1/Dockerfile))_
+`2.4.27-r1` , `2.4.27-r1` _([2.4.27-r1/Dockerfile](https://github.com/wplib/apache2/blob/master/2.4.27-r1/Dockerfile))_
 
 
 ## Setup
 Simply clone this repository to your local machine
 
-`git clone https://github.com/wplib/wp-cli-docker.git`
+`git clone https://github.com/wplib/apache2-docker.git`
 
 and run either...
 
