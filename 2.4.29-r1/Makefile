@@ -3,7 +3,7 @@
 # 
 
 PROJECT		?= wplib
-NAME		?= apache-docker
+NAME		?= apache2
 VERSION		?= 2.4.29-r1
 MAJORVERSION	?= 2.4
 PORTS		?= -p 8080:80
