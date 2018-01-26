@@ -2,7 +2,7 @@
 # Makefile for Docker
 # 
 
-VERSIONS = 2.4.27-r1 2.4.29-r1
+VERSIONS = 2.4.27 2.4.29
 
 BASEDIR = $(shell pwd)
 

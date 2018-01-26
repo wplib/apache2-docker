@@ -4,7 +4,7 @@
 
 PROJECT		?= wplib
 NAME		?= apache2
-VERSION		?= 2.4.27-r1
+VERSION		?= 2.4.27
 MAJORVERSION	?= 
 PORTS		?= -p 8080:80
 VOLUMES		?= --mount type=bind,source=/var/www,target=/var/www/localhost/htdocs
