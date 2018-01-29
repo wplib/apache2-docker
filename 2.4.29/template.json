@@ -1,0 +1,12 @@
+{
+	"project": "wplib",
+	"name": "apache2",
+	"version": "2.4.29",
+	"majorversion": "2.4",
+	"latest": "1",
+	"ports": "-p 8081:80",
+	"volumes": "--mount type=bind,source=/var/www,target=/var/www/localhost/htdocs",
+	"args": "",
+	"env": "APACHE2_VERSION"
+}
+
