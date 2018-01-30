@@ -18,28 +18,29 @@ Or you can use the GitHub method to build and run the container.
 ## Using it from Docker Hub
 
 ### Setup from Docker Hub
-A simple `docker pull wplib/TEMPLATE_PACKAGE` will pull down the latest version.
+A simple `docker pull wplib/apache2` will pull down the latest version.
 
 
 ### Runtime from Docker Hub
 start - Spin up a Docker container with the correct runtime configs.
-`start`
 
+`docker run -d --name wplib_apache2_2.4.29 --restart unless-stopped --network wplibbox -p 8080:80 --mount type=bind,source=/var/www,target=/var/www/localhost/htdocs wplib/apache2:2.4.29`
 
 stop - Stop a Docker container.
-`stop`
 
+`docker stop wplib_apache2_2.4.29`
 
 run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
-`run`
 
+`docker run --rm --name wplib_apache2_2.4.29 --network wplibbox -p 8080:80 --mount type=bind,source=/var/www,target=/var/www/localhost/htdocs wplib/apache2:2.4.29`
 
 shell - Run a shell, (/bin/bash), within a Docker container.
-`shell`
 
+`docker run --rm --name wplib_apache2_2.4.29 -i -t --network wplibbox -p 8081:80 --mount type=bind,source=/var/www,target=/var/www/localhost/htdocs wplib/apache2:2.4.29 /bin/bash`
 
 rm - Remove the Docker container.
-`rm`
+
+`docker container rm wplib_apache2_2.4.29`
 
 
 ## Using it from GitHub repo
