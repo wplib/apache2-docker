@@ -3,7 +3,7 @@
 #
 
 define GetFromPkg
-$(shell node -p "require('./template.json').$(1)")
+$(shell node -p "require('./container.json').$(1)")
 endef
 
 PROJECT		:= $(call GetFromPkg,project)
