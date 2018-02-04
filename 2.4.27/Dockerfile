@@ -1,8 +1,8 @@
 FROM alpine:3.6
 MAINTAINER WPLib Team <team@wplib.org>
 
-RUN apk add --no-cache bash apache2=2.4.27-r1 apache2-proxy=2.4.27-r1 apache2-ssl=2.4.27-r1 \
-  && mkdir -p /run/apache2
+RUN apk add --no-cache bash apache2=2.4.27-r1 apache2-proxy=2.4.27-r1 apache2-ssl=2.4.27-r1 && \
+	mkdir -p /run/apache2
 
 COPY files /
 
