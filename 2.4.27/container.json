@@ -4,8 +4,10 @@
 	"version": "2.4.27",
 	"majorversion": "",
 	"latest": "",
+	"network": "--network wplibbox",
 	"ports": "-p 8080:80",
 	"volumes": "--mount type=bind,source=/var/www,target=/var/www/localhost/htdocs",
+	"restart": "--restart unless-stopped",
 	"args": "",
 	"env": "APACHE2_VERSION"
 }
